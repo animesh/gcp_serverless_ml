@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-model = pickle.load(open('./covidpred_model_v1.pkl','rb'))
+model = pickle.load(open('./Covid_st_app/covidpred_model_v1.pkl','rb'))
 
 def main():
 
